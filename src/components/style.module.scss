@@ -1,0 +1,25 @@
+.listItem{
+    background-color: #7AB8BF;
+    padding: 5px;
+    color: white;
+    border: solid 1px transparent;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 1);
+    transition: all .5s ease-in-out;
+    
+}
+
+
+.hint{
+    border: solid 1px #3E848C;
+}
+
+.active{
+    border: solid 1px #3E848C;
+    background-color: #C4EEF2;
+    color: #025159;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.673);
+}
