@@ -9,6 +9,10 @@
     border-radius: 8px;
     box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 1);
     transition: all .5s ease-in-out;
+    cursor: grab;
+    &:active{
+        cursor: grabbing;
+    }
     
 }
 
@@ -22,4 +26,5 @@
     background-color: #C4EEF2;
     color: #025159;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.673);
+    cursor: grabbing;
 }
